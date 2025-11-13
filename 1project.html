@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentolog</title>
+</head>
+<body>
+    <h1>Заголовок страницы</h1>
+    <p>Привет мир!</p>
+    <b>Жирный текст (устаревший),</b>
+    <strong>Важный текст (семантически жирный),</strong>
+    <i>Курсив (устаревший)</i>
+    <em>Акцентированный текст (семантически курсив)</em>
+    <mark>Подсвеченный текст</mark>
+    <small>Мелкий текст</small>
+    <del>Удалённый текст</del>
+    <ins>Добавленный текст</ins>
+    <a href="https://www.nitec.kz/" target="_blank" title="Открыть сайт">
+  Перейти на сайт
+</a>
+'target="_blank" — открыть в новой вкладке.
+ title — подсказка при наведении.'
+ <img src="image.png" alt="Описание изображения" width="300" height="200" />
+ <ul>
+  <li>Пункт 1</li>
+  <li>Пункт 2</li>
+</ul>
+
+<ol>
+  <li>Первый</li>
+  <li>Второй</li>
+</ol>
+
+Описание <dl>
+<dl>
+  <dt>HTML</dt>
+  <dd>Язык разметки гипертекста</dd>
+</dl>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Возраст</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Иван</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Анна</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+<form action="/submit" method="post">
+  <label for="name">Имя:</label>
+  <input type="text" id="name" name="name" placeholder="Введите имя" required />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" />
+
+  <label>
+    <input type="checkbox" name="subscribe" />
+    Подписаться на новости
+  </label>
+
+  <input type="radio" name="gender" value="male" /> Мужчина
+  <input type="radio" name="gender" value="female" /> Женщина
+
+  <select name="city">
+    <option value="astana">Астана</option>
+    <option value="almaty">Алматы</option>
+  </select>
+
+  <textarea name="message" rows="4" cols="30"></textarea>
+
+  <button type="submit">Отправить</button>
+</form>
+</body>
+</html>

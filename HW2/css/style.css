@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #1b2a41;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #0052a5;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.photo-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-block img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-me, .skills, .contacts {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skills .cards {
+    display: flex;
+    gap: 20px;
+}
+
+.skills .card {
+    flex: 1 1 calc(33% - 20px);
+    background: #e3f0ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skills .card h3 {
+    margin-top: 0;
+    color: #0052a5;
+}
