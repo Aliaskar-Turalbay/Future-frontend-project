@@ -1,0 +1,98 @@
+@import url(./reset.css);
+@import url(./button.css);
+@import url(./news-card.css);
+
+
+
+.test {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.test-1 {
+
+    background-color: red;
+}
+
+.test-2 {
+    background-color: green;
+}
+
+.test-3 {
+    background-color: blue;
+}
+
+.test-4 {
+    background-color: orange;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    background-color: rgba(142, 146, 150, 0.219);
+    backdrop-filter: blur(5px);
+    z-index: 50;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+
+
+main {
+    padding-top: 100px;
+    height: 400vh;
+
+}
+
+.logo {
+    height: 15px;
+    width: 20px;
+}
+
+.sticky_container{
+   width: 75%;
+   height: 200vh;
+   background-color: rgb(17, 169, 143); 
+   overflow-y: auto;
+
+}
+
+.sticky_element {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(195, 17, 17);
+}
+
+.btn_notifications {
+   position: relative; 
+}
+
+
+[data-notification]::after {
+ content: attr(data-notification);
+ position: absolute;
+ top: -5px;
+ right: -5px;
+ width: 15px;
+ font-size: 10px;
+ aspect-ratio: 1;
+ background-color: red;
+ color: white;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
