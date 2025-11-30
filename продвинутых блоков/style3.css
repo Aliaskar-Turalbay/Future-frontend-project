@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(3, 3, 3, 0.1);
+}
+
+.card img.profile {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* правильно режет фото */
+    border-radius: 50%; /* делает круглое фото */
+    margin-bottom: 10px;
+    border: 3px solid #686464;
+}
+
+.skills {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 3px solid #333;   /* сама рамка */
+  border-radius: 15px;     /* скругление углов */
+  background: #f9f9f9;
+}
